@@ -1,0 +1,38 @@
+body {
+    background-color: #e6dbbf;
+}
+
+header {
+    background-color: #e6dbbf;
+}
+
+#classic,
+#cruiser {
+    height: 120vw;
+    max-height: 584px;
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.42), transparent 58%),
+        url("../assets/sepeda%20card.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 200% auto;
+}
+
+#classic {
+    background-position: center, left center;
+}
+
+#cruiser {
+    background-position: center, right center;
+}
+
+@media (min-width: 768px) {
+    #hero-bike {
+        position: relative;
+        top: 24px;
+    }
+
+    #classic,
+    #cruiser {
+        height: 60vw;
+    }
+}
